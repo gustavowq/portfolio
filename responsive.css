@@ -39,14 +39,20 @@
 
 }
 
-@media(max-whidth:600px){
+@media(max-width:600px){
+
+    main nav a{
+        font-size: 0.8em;
+    }
     main  .techs .container-cards{
         display:flex;
-        flex-direction: colum;
-        aling-items: center;
+        
+        align-items: center;
         justify-content:center;
         
-        whidth:100%;
+        
+        }
+}
 
         
 
