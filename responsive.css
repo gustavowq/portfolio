@@ -1,0 +1,44 @@
+@media(max-width:1000px) {
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        width: 100%;
+    }
+    
+    main .conteudo-main{
+        margin-bottom: 10%;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+
+
+    }
+
+    main .conteudo-main .text, .techs{
+        text-align: center;
+    }
+
+    main .conteudo-main .text, p{
+        width: 100%;
+        font-size: 0.9em;
+    }
+
+    main .conteudo-main .conatiner-cards{
+        width: 100%;
+        margin-top: 30%;
+    }
+
+    main figure{
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+
+
+

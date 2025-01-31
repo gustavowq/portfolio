@@ -1,0 +1,104 @@
+main{
+    padding: 5%;
+
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.conteudo-main{
+    display: flex;
+    flex-direction: column;
+    
+    
+
+}
+
+main .conteudo-main article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+
+
+}
+
+main .conteudo-main h2 {
+    margin-bottom: 2%;
+    font-size: 2.2em
+}
+
+.text{
+    margin-bottom: 10%;
+}
+
+
+
+
+main  .conteudo-main .text .p{
+    width: 75%;
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+
+main  .techs .container-cards{
+    display:flex ;
+    align-items: center;
+
+
+}
+
+.card{
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #fff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1.3em;
+
+    
+}
+
+.card img{
+    width: 80%
+}
+
+
+
+.container-cards :hover{
+    box-shadow: 0px 0px 8px #00e0ff;
+    transition: 0.25 ease-in-out;
+}    
+ 
+main figure{
+    display: flex;
+    flex-direction: column;
+    
+
+
+}
+
+main figure img{
+    width: 200px;
+    height: 300px;
+    border-radius: 200px;
+    margin-bottom: 6%;
+
+    border: 1px #00e0ff solid;
+    cursor: pointer;
+
+}
+
+
+figure .img :hover{
+    box-shadow: 0px 0px 6px #00e0ff;
+    transition: 0.25 ease-in-out;
+}
+
