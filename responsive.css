@@ -41,17 +41,19 @@
 
 @media(max-width:600px){
 
-    main nav a{
+    header nav a{
         font-size: 0.8em;
     }
-    main  .techs .container-cards{
-        display:flex;
-        
-        align-items: center;
-        justify-content:center;
+    main  .techs .container-cards .card{
+        width: 60px;
+        height: 60px;
         
         
         }
+
+     main .conteudo-main h2{
+        font-size: 1.7em;
+     }  
 }
 
         
