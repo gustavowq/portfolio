@@ -39,6 +39,18 @@
 
 }
 
+@media(max-whidth:600px){
+    main  .techs .container-cards{
+        display:flex;
+        flex-direction: colum;
+        aling-items: center;
+        justify-content:center;
+        
+        whidth:100%;
+
+        
+
+
 
 
 
